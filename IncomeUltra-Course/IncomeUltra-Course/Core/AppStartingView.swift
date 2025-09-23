@@ -12,13 +12,13 @@ struct AppStartingView: View {
     
     var body: some View {
         Group {
-            if viewModel.shoudShowWelcomeView {
-                WelcomeView(shouldShowWelcomeView: $viewModel.shoudShowWelcomeView)
+            if viewModel.shouldShowWelcomeView {
+                WelcomeView(shouldShowWelcomeView: $viewModel.shouldShowWelcomeView)
             } else {
                 HomeTabView()
             }
         }
-        .animation(.easeIn, value: viewModel.shoudShowWelcomeView)
+        .animation(.easeIn, value: viewModel.shouldShowWelcomeView)
     }
 }
 
