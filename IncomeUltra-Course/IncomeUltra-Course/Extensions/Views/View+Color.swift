@@ -21,7 +21,7 @@ extension Color {
             secondaryText: .init(.secondaryText),
             alternateText: .init(.alternateText),
             accentContrastText: .init(.accentContrastText),
-            primaryAciton: .init(.primaryAction),
+            primaryAction: .init(.primaryAction),
             neutralAction: .init(.neutralAction),
             destructive: .init(.destructive),
             success: .init(.success),
@@ -44,7 +44,7 @@ struct AppColorTheme {
     let secondaryText: Color
     let alternateText: Color
     let accentContrastText: Color
-    let primaryAciton: Color
+    let primaryAction: Color
     let neutralAction: Color
     let destructive: Color
     let success: Color
