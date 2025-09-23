@@ -10,5 +10,5 @@ import Combine
 
 @MainActor
 final class AppStartingViewModel: ObservableObject {
-    @Published var shoudShowWelcomeView: Bool = true
+    @Published private var shoudShowWelcomeView: Bool = true
 }
