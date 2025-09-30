@@ -22,5 +22,5 @@ extension AppCornerRadius {
     static var overall: Self = .init(value: 8)
     static var cell: Self = .init(value: 8)
     static var button: Self = .init(value: 8)
-    static var textfieldd: Self = .init(value: 8)
+    static var textfield: Self = .init(value: 8)
 }
